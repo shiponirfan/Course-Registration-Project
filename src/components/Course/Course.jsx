@@ -12,23 +12,26 @@ const Course = ({ course, handleCourseName }) => {
         className="rounded-xl"
       />
       <div>
-        <h2 className="my-3 font-semibold text-lg">{course_name}</h2>
+        <h2 className="my-3 font-semibold lg:text-lg">{course_name}</h2>
         <p className="text-base mb-4 text-[#1C1B1B99]">{course_details}</p>
         <div className="flex justify-between mb-4">
           <span className="flex items-center text-2xl text-[#1C1B1B]">
             <LuDollarSign />
-            <p className="ml-3 text-base font-medium text-[#1C1B1B99]">
+            <p className="lg:ml-3 ml-1 lg:text-base text-sm font-medium text-[#1C1B1B99]">
               Price : {price}
             </p>
           </span>
           <span className="flex items-center text-2xl text-[#1C1B1B]">
             <FiBookOpen />
-            <p className="ml-3 text-base font-medium text-[#1C1B1B99]">
+            <p className="lg:ml-3 ml-1 lg:text-base text-sm font-medium text-[#1C1B1B99]">
               Credit : {credit}hr
             </p>
           </span>
         </div>
-        <button onClick={()=> handleCourseName(course)} className="btn text-lg font-semibold bg-[#2F80ED] hover:bg-[#366bb1] text-white capitalize w-full">
+        <button
+          onClick={() => handleCourseName(course)}
+          className="btn text-lg font-semibold bg-[#2F80ED] hover:bg-[#366bb1] text-white capitalize w-full"
+        >
           Select
         </button>
       </div>
