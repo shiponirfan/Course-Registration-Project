@@ -1,8 +1,20 @@
-# React + Vite
+# Course Registration Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## [ Live Website link](https://course-registration-shipon.netlify.app/)
 
-Currently, two official plugins are available:
+Click here for the Live Website URL: [https://course-registration-shipon.netlify.app/](https://course-registration-shipon.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Project Features
+
+- Adding a credit limit to a course
+- Showing a toast when there is a duplicate course and the credit limit is exceeded
+- Displaying remaining credit hours and total price
+
+##  How I managed the state in this project.
+- **Local Component State**: Use `useState` hook for simple, component-specific state.
+- **Prop Drilling**: Pass state down through props, suitable for smaller apps.
+- **Effectively Use `useEffect`**: Manage side effects and async operations.
+- **Immutability**: Update state immutably to avoid unexpected side effects.
+- **Organized Component Structure**: Follow best practices, separate logic from UI.
+- **Testing**: Write tests for state management code to ensure reliability.
+- **Error Handling**: Implement mechanisms to gracefully handle errors.
