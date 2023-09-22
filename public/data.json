@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/cFfGJZd/1.png",
+      "course_name": "Introduction to C Programming",
+      "course_details": "Learn C programming basics, including variables, loops, and functions. Build a strong coding foundation.",
+      "price": 15000,
+      "credit": 1
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/DY7Gm9F/2.png",
+      "course_name": "Introduction to Algorithms",
+      "course_details": "Explore fundamental algorithms and data structures. Develop problem-solving skills for real-world apps.",
+      "price": 25000,
+      "credit": 2
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/GnrqCDb/3.png",
+      "course_name": "Introduction to C++ for DSA",
+      "course_details": "Master C++ for data structures and algorithms. Learn classes, templates, and advanced competitive programming.",
+      "price": 10000,
+      "credit": 10
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/F4F5DYr/4.png",
+      "course_name": "Basic Data Structures",
+      "course_details": "Get a strong grasp of essential data structures like arrays, linked lists, and trees. Enhance your programming.",
+      "price": 35000,
+      "credit": 5
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/DDFyngX/5.png",
+      "course_name": "Introduction to OOP Python",
+      "course_details": "Learn object-oriented Python programming. Build robust applications with classes, inheritance, polymorphism.",
+      "price": 19000,
+      "credit": 5
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/28jZN76/6.png",
+      "course_name": "Software Engineering",
+      "course_details": "Explore the software development lifecycle, agile methodologies, and best practices in software engineering.",
+      "price": 23000,
+      "credit": 2
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/ww40xX0/7.png",
+      "course_name": "AWS, Cloud Computing",
+      "course_details": "Master Amazon Web Services (AWS). Learn cloud computing, deployment, and management on the AWS platform.",
+      "price": 35000,
+      "credit": 5
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/9t7s5fM/8.png",
+      "course_name": "Database (MySQL)",
+      "course_details": "Learn MySQL database management. Design, query, and optimize databases for web and app development.",
+      "price": 19000,
+      "credit": 5
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/74k6gvg/9.png",
+      "course_name": "Problem-Solving Part",
+      "course_details": "Develop advanced problem-solving skills through real-world scenarios. Tackle complex challenges effectively.",
+      "price": 23000,
+      "credit": 2
+    }
+  ]
+  
