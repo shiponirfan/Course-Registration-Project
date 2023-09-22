@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
-const CreditHour = ({courseName, creditHour, creditRemaining}) => {
+const CreditHour = ({courseName, creditHour, creditRemaining, totalPrice}) => {
   return (
     <div className="w-1/4">
+      <div className="md:sticky md:top-0">
       <div className="card bg-white p-6">
         <h2 className="text-lg font-bold text-[#2F80ED] pb-4 border-b-2">Credit Hour Remaining {creditRemaining} hr</h2>
         <div className="pt-4 pb-6 border-b-2">
@@ -13,7 +14,8 @@ const CreditHour = ({courseName, creditHour, creditRemaining}) => {
           </ul>
         </div>
         <h3 className="text-base font-medium text-[#1C1B1BCC] py-4 border-b-2">Total Credit Hour : {creditHour}</h3>
-        <h3 className="text-base font-semibold text-[#1C1B1BCC] pt-4">Total Price : 48000 USD</h3>
+        <h3 className="text-base font-semibold text-[#1C1B1BCC] pt-4">Total Price : {totalPrice} USD</h3>
+      </div>
       </div>
     </div>
   );
@@ -22,5 +24,6 @@ CreditHour.propTypes = {
     courseName: PropTypes.array.isRequired,
     creditHour: PropTypes.number.isRequired,
     creditRemaining: PropTypes.number.isRequired,
+    totalPrice: PropTypes.number.isRequired,
 }
 export default CreditHour;
