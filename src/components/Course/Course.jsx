@@ -2,7 +2,7 @@ import { LuDollarSign } from "react-icons/lu";
 import { FiBookOpen } from "react-icons/fi";
 import PropTypes from "prop-types";
 
-const Course = ({ course }) => {
+const Course = ({ course, handleCourseName }) => {
   const { image, course_name, course_details, price, credit } = course;
   return (
     <div className="card bg-white p-4">
@@ -28,7 +28,7 @@ const Course = ({ course }) => {
             </p>
           </span>
         </div>
-        <button className="btn text-lg font-semibold bg-[#2F80ED] hover:bg-[#366bb1] text-white capitalize w-full">
+        <button onClick={()=> handleCourseName(course)} className="btn text-lg font-semibold bg-[#2F80ED] hover:bg-[#366bb1] text-white capitalize w-full">
           Select
         </button>
       </div>
@@ -37,5 +37,6 @@ const Course = ({ course }) => {
 };
 Course.propTypes = {
   course: PropTypes.object.isRequired,
+  handleCourseName: PropTypes.func.isRequired,
 };
 export default Course;
